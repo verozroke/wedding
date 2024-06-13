@@ -10,8 +10,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      formular: ['Formular'],
-      tehuti: ['Tehuti'],
+      literata: ['Literata'],
+      'great-vibes': ['Great Vibes'],
     },
     extend: {
       colors: {

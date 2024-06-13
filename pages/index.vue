@@ -1,11 +1,11 @@
 <template>
   <div>
     <HeroSection />
-    <AboutUsSection />
     <InfoSection />
-    <ProductSection />
-    <SocialSection />
+    <LocationSection />
+    <TimerSection />
     <FormSection />
+    <OwnerSection />
   </div>
 </template>
 

@@ -1,16 +1,16 @@
 <template>
   <footer class="flex flex-col space-y-10 justify-center m-10">
 
-    <nav class="flex justify-center flex-wrap gap-6 text-white font-medium">
+    <nav class="flex justify-center flex-wrap gap-6 text-black font-medium">
       <a
         v-for="item in navigation"
         :key="item.name"
-        class="text-sm font-medium leading-6 text-white"
+        class="text-sm font-medium leading-6 text-black"
         @click="scrollDown(item.href)"
       >{{ item.name }}</a>
     </nav>
 
-    <p class="text-center text-white font-medium">&copy; 2024 Crush. Все права защищены.</p>
+    <p class="text-center text-black font-medium">&copy; Гульмира Қыз ұзату. Все права защищены.</p>
   </footer>
 </template>
 
@@ -30,11 +30,11 @@ function scrollDown(blockID: string) {
 }
 
 const navigation = [
-  { name: 'Главная', href: 'Hero' },
-  { name: 'Почему Crush?', href: 'AboutUs' },
-  { name: 'Преимущества', href: 'Info' },
-  { name: 'Ассортимент', href: 'Product' },
-  { name: 'Контакты', href: 'Social' },
+  { name: 'Басты', href: 'Hero' },
+  { name: 'Күту', href: 'Info' },
+  { name: 'Мекен-жайы', href: 'Location' },
+  { name: 'Таймер', href: 'Timer' },
+  { name: 'Той йелері', href: 'Owner' },
 ]
 </script>
 
