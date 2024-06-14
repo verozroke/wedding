@@ -11,7 +11,7 @@ export default {
   theme: {
     fontFamily: {
       literata: ['Literata'],
-      'great-vibes': ['Great Vibes'],
+      'great-vibes': ['KZ Balmoral'],
     },
     extend: {
       colors: {

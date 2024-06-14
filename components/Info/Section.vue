@@ -6,15 +6,15 @@
 
     <div class="mx-auto flex flex-col screen1 justify-center items-center max-w-2xl ">
       <div class="text-center w-full screen1 flex items-center justify-center flex-col gap-x-6">
-        <h1 class="subtitle hidden1 font-great-vibes mb-2 text-5xl font-bold tracking-tight text-amber-300">
-          Курметті конактар!
+        <h1 class="subtitle hidden1 font-great-vibes tracking-wide mb-2 text-5xl font-bold text-pink-300">
+          Құрметті қонақтар!
         </h1>
         <h1 class="subtitle hidden1 text-base mb-5 font-medium tracking-tight text-slate-50">
           Сіздерді аяулы қызымыз Гульмираның қыз ұзату тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы
           болуға шақырамыз.
         </h1>
-        <h1 class="subtitle hidden1 font-great-vibes  text-5xl mb-2 font-bold tracking-tight text-amber-300">
-          Сізді кутеміз!
+        <h1 class="subtitle hidden1 font-great-vibes tracking-wide  text-5xl mb-2 font-bold text-pink-300">
+          Сізді күтеміз!
         </h1>
         <h1 class="subtitle hidden1  text-xl font-medium tracking-tight text-slate-50">
           05 тамыз 2024 жыл
@@ -28,11 +28,40 @@
   setup
   lang="ts"
 >
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show')
+    } else {
+      entry.target.classList.remove('show')
+    }
+  })
+})
 
+setTimeout(() => {
+  let hiddenTitleElements = document.querySelectorAll('.subtitle.hidden1')
+  let hiddenElements = [...hiddenTitleElements,]
+  hiddenElements.forEach((hiddenElement) => {
+    observer.observe(hiddenElement)
+  })
+}, 0)
 </script>
 
 <style scoped>
 .screen1 {
   min-height: calc(100vh - 72px);
+}
+
+.subtitle.hidden1 {
+  opacity: 0;
+  transition: all 2s;
+  filter: blur(20px);
+  transform: translateY(200px);
+}
+
+.subtitle.show {
+  filter: blur(0);
+  opacity: 1;
+  transform: translateY(0) translateX(0);
 }
 </style>

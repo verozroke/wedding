@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* TODO: import fonts */
+@font-face {
+  font-family: 'KZ Balmoral';
+  src: url('/fonts/kzbalmoral_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   font-family: 'Literata', sans-serif;

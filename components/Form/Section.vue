@@ -4,7 +4,8 @@
     class="relative isolate py-10"
   >
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-5xl font-bold tracking-tight text-pink-400 font-great-vibes sm:text-4xl">Хабар жіберу</h2>
+      <h2 class="text-5xl font-bold tracking-tight text-pink-300 font-great-vibes tracking-wide sm:text-4xl">Хабар
+        жіберу</h2>
     </div>
     <form
       action="#"
@@ -39,7 +40,7 @@
                 type="radio"
                 v-model="isGoing"
                 value="Иә, Келемін"
-                class="h-4 w-4 border-gray-300 text-pink-400 focus:ring-pink-200"
+                class="h-4 w-4 border-gray-300 text-pink-300 focus:ring-pink-200"
               >
               <label
                 for="is-going"
@@ -53,7 +54,7 @@
                 type="radio"
                 v-model="isGoing"
                 value="Жоқ, келе алмаймын"
-                class="h-4 w-4 border-gray-300 text-pink-400 focus:ring-pink-200"
+                class="h-4 w-4 border-gray-300 text-pink-300 focus:ring-pink-200"
               >
               <label
                 for="is-going"
@@ -72,7 +73,7 @@
                 type="radio"
                 v-model="isAlone"
                 value="Жалғыз өзім"
-                class="h-4 w-4 border-gray-300 text-pink-400 focus:ring-pink-200"
+                class="h-4 w-4 border-gray-300 text-pink-300 focus:ring-pink-200"
               >
               <label
                 for="is-alone"
@@ -86,7 +87,7 @@
                 type="radio"
                 v-model="isAlone"
                 value="Жұбайымен / Жолдасымен"
-                class="h-4 w-4 border-gray-300 text-pink-400 focus:ring-pink-200"
+                class="h-4 w-4 border-gray-300 text-pink-300 focus:ring-pink-200"
               >
               <label
                 for="is-alone"
@@ -100,7 +101,7 @@
       <div class="mt-10">
         <button
           @click="sendToSheets"
-          class="gap-2 items-center font-semibold leading-6 w-full text-sm flex justify-center rounded-md border border-transparent bg-pink-400 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          class="gap-2 items-center font-semibold leading-6 w-full text-sm flex justify-center rounded-md border border-transparent bg-pink-300 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >Хабар жіберу
           <PhoneXMarkIcon class="h-4 w-4" />
         </button>

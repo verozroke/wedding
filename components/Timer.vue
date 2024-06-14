@@ -1,19 +1,19 @@
 <template>
   <div class="timer">
     <div class="timer__box ">
-      <div class="timer__digit font-great-vibes">{{ displayDays }}</div>
+      <div class="timer__digit font-great-vibes tracking-wide">{{ displayDays }}</div>
       <div class="timer__title">күн</div>
     </div>
     <div class="timer__box">
-      <div class="timer__digit font-great-vibes">{{ displayHours }}</div>
+      <div class="timer__digit font-great-vibes tracking-wide">{{ displayHours }}</div>
       <div class="timer__title">сағ</div>
     </div>
     <div class="timer__box">
-      <div class="timer__digit font-great-vibes">{{ displayMinutes }}</div>
+      <div class="timer__digit font-great-vibes tracking-wide">{{ displayMinutes }}</div>
       <div class="timer__title">мин</div>
     </div>
     <div class="timer__box">
-      <div class="timer__digit font-great-vibes">{{ displaySeconds }}</div>
+      <div class="timer__digit font-great-vibes tracking-wide">{{ displaySeconds }}</div>
       <div class="timer__title">сек</div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <button
     @click="switchMusic"
-    class="p-0 w-12 h-12 z-10 fixed bottom-5 right-5 bg-pink-400 bg-opacity-100 rounded-full hover:bg-opacity-75 hover:cursor active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none"
+    class="p-0 w-12 h-12 z-10 fixed bottom-5 right-5 bg-pink-300 bg-opacity-100 rounded-full hover:bg-opacity-75 hover:cursor active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none"
   >
     <MusicalNoteIcon
       v-if="isMusicPlaying"

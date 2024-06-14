@@ -5,7 +5,7 @@
   >
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center flex flex-col items-center justify-center gap-5">
-        <p class="mt-2 text-5xl font-great-vibes font-bold tracking-tight text-pink-400 sm:text-4xl subtitle hidden1">
+        <p class="mt-2 text-5xl font-great-vibes tracking-wide font-bold text-pink-300 sm:text-4xl subtitle hidden1">
           Мекен-жайы</p>
         <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Ресторан "Той Думан Плюс", 6-я
           линия, 1е

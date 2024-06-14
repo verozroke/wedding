@@ -28,7 +28,7 @@
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <button
           @click="scrollDown('Form')"
-          class="gap-2 items-center font-semibold leading-6 text-sm flex justify-center rounded-md border border-transparent bg-pink-400 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          class="gap-2 items-center font-semibold leading-6 text-sm flex justify-center rounded-md border border-transparent bg-pink-300 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >Хабар жіберу
           <PhoneXMarkIcon class="h-4 w-4" />
         </button>
@@ -76,7 +76,7 @@
             mobileMenuOpen = false
             scrollDown('Form')
           }"
-                class="gap-2 items-center font-semibold leading-6 w-full text-sm flex justify-center rounded-md border border-transparent bg-pink-400 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                class="gap-2 items-center font-semibold leading-6 w-full text-sm flex justify-center rounded-md border border-transparent bg-pink-300 px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >Хабар жіберу
                 <PhoneXMarkIcon class="h-4 w-4" />
               </button>
