@@ -4,8 +4,8 @@
     class="relative isolate py-10"
   >
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-5xl font-bold text-pink-300 font-great-vibes tracking-wide sm:text-4xl">Хабар
-        жіберу</h2>
+      <h2 class="text-5xl font-bold text-pink-300 font-great-vibes tracking-wide sm:text-4xl">Тойға қатысуыңызды
+        растауыңызды сұраймыз!</h2>
     </div>
     <form
       action="#"
