@@ -25,7 +25,8 @@
             allowfullscreen="true"
             style="position:relative;"
           ></iframe></div>
-        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Ресторан "Той Думан Плюс", 6-я
+        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Ресторан "Той Думан Плюс", <br>
+          6-я
           линия, 1е, Семей
         </p>
 

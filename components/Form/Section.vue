@@ -4,7 +4,7 @@
     class="relative isolate py-10"
   >
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-5xl font-bold tracking-tight text-pink-300 font-great-vibes tracking-wide sm:text-4xl">Хабар
+      <h2 class="text-5xl font-bold text-pink-300 font-great-vibes tracking-wide sm:text-4xl">Хабар
         жіберу</h2>
     </div>
     <form
@@ -17,7 +17,7 @@
           <label
             for="first-name"
             class="block text-sm font-medium leading-6 text-black"
-          >Cіздің ФИО</label>
+          >Аты-жөніңіз</label>
           <div class="mt-2.5">
             <input
               v-model="name"
