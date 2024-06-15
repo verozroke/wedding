@@ -6,21 +6,27 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center flex flex-col items-center justify-center gap-5">
         <p class="mt-2 text-5xl font-great-vibes tracking-wide font-bold text-pink-300 sm:text-4xl subtitle hidden1">
-          Мекен-жайы</p>
-        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Ресторан "Той Думан Плюс", 6-я
-          линия, 1е
-          Б квартал, Семей
+          Қалай жетуге болады?</p>
+        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">
+          Сізге ыңғайлы болу үшін,
+          осы картаны қолданыңыз.
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635.8320184120905!2d80.29276043325665!3d50.39772316802702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f27b20864e8acf%3A0x584e884916d75810!2z0JrQsNC80LHQsNGA!5e0!3m2!1sru!2skz!4v1718279149808!5m2!1sru!2skz"
-          width="100%"
-          height="300"
-          class="rounded-md"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Тойымыздың қадірлі
-          қонағы болыңыздар!
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.kz/maps/ru/165/semey/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;"
+          >Семей</a><a
+            href="https://yandex.kz/maps/ru/165/semey/house/bEkYdA5jT0EPQFtqfX94dntkYg==/?ll=80.293960%2C50.397770&utm_medium=mapframe&utm_source=maps&z=20"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;"
+          >6-я линия, 1Е — Яндекс Карты</a><iframe
+            src="https://yandex.kz/map-widget/v1/?ll=80.293960%2C50.397770&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTI3OTM3OTMwEkvSmtCw0LfQsNKb0YHRgtCw0L0sINCQ0LHQsNC5INC-0LHQu9GL0YHRiywg0KHQtdC80LXQuSwgNi3RiNGWINC20LXQu9GWLCAx0JUiCg1ZlqBCFVOXSUI%2C&z=20"
+            class="rounded-md"
+            width="100%"
+            height="300"
+            allowfullscreen="true"
+            style="position:relative;"
+          ></iframe></div>
+        <p class="mt-2 text-lg font-medium tracking-tight text-black subtitle hidden1">Ресторан "Той Думан Плюс", 6-я
+          линия, 1е, Семей
         </p>
 
       </div>

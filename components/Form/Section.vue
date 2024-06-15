@@ -17,7 +17,7 @@
           <label
             for="first-name"
             class="block text-sm font-medium leading-6 text-black"
-          >Cіздін ФИО</label>
+          >Cіздің ФИО</label>
           <div class="mt-2.5">
             <input
               v-model="name"
@@ -25,13 +25,14 @@
               name="first-name"
               id="first-name"
               autocomplete="given-name"
-              placeholder="ФИОнызды жазыныз"
+              placeholder="Аты-жөніңізді жазыңыз"
               class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
             >
           </div>
         </div>
         <fieldset>
-          <legend class="text-sm font-semibold leading-6 text-gray-900">Тойға келетінізді растаныз</legend>
+          <legend class="text-sm font-semibold leading-6 text-gray-900">Тойға қатысуыңызды
+            растауыңызды сұраймыз!</legend>
           <div class="mt-6 space-y-6">
             <div class="flex items-center gap-x-3">
               <input

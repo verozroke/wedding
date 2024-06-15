@@ -6,10 +6,10 @@
 
     <div class="mx-auto flex flex-col screen1 justify-center items-center max-w-2xl ">
       <div class="text-center w-full screen1 flex items-center justify-center flex-col gap-y-6">
-        <h1 class="subtitle hidden1  text-7xl  font-bold font-great-vibes tracking-wide text-pink-300">
+        <h1 class="subtitle hidden1  text-9xl  font-great-vibes tracking-wide text-pink-300">
           Гульмира
         </h1>
-        <h1 class="subtitle hidden1  text-5xl  font-bold font-great-vibes tracking-wide text-pink-300">
+        <h1 class="subtitle hidden1  text-6xl font-great-vibes tracking-wide text-pink-300">
           Қыз ұзату
         </h1>
         <h1 class="subtitle hidden1  text-5xl  font-bold font-great-vibes tracking-wide text-slate-50">

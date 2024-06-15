@@ -13,9 +13,6 @@
           Сіздерді аяулы қызымыз Гульмираның қыз ұзату тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы
           болуға шақырамыз.
         </h1>
-        <h1 class="subtitle hidden1 font-great-vibes tracking-wide  text-5xl mb-2 font-bold text-pink-300">
-          Сізді күтеміз!
-        </h1>
         <h1 class="subtitle hidden1  text-xl font-medium tracking-tight text-slate-50">
           05 тамыз 2024 жыл
         </h1>
